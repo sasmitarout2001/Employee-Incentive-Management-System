@@ -1,4 +1,4 @@
-# Employee-Incentive-Management-System
+# IncentiPRO-Employee-Incentive-Management-System
 
 It is an Employee Incentive Management System designed for banking organizations with around 100 employees.
 
