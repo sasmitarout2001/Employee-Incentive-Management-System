@@ -3,7 +3,7 @@ It is a Employee Incentive management System for  Banking organizations with aro
 
 **Objective:** Streamline incentive calculation and management process with transparency and efficiency
 
-**Key Features:**
+**Key Features:**\n
 **==>** Dynamic incentive calculation matrix based on predefined sales targets
 **==>** User-friendly interface for defining incentive tiers and percentages
 **==>** Additional incentives such as bonuses and exclusive holiday packages
