@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>EMPLOYEES DETAILS</title>
+</head>
+<body style="color: white; background-color: #1d2630;">
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-5 mb-5"><strong>EMPLOYEES DETAILS</strong></h1>
+        </div>
+        <div class="main row justify-content-center">
+            <form action="" id="employee-form" class="row justify-content-center mb-4" autocomplete="off">
+
+                <div class="col-md-6 mb-3">
+                    <label for="firstName">First Name</label>
+                    <input class="form-control" id="firstName" type="text" placeholder="Enter First Name">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="lastName">Last Name</label>
+                    <input class="form-control" id="lastName" type="text" placeholder="Enter Last Name">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" placeholder="Enter Email">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="jobRole">Job Role</label>
+                    <input class="form-control" id="jobRole" type="text" placeholder="Enter Job Role">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="department">Department</label>
+                    <input class="form-control" id="department" type="text" placeholder="Enter Department Name">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="sales">Sales</label>
+                    <input class="form-control" id="sales" type="number" placeholder="Enter Sales Amount">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="baseSalary">Base Salary</label>
+                    <input class="form-control" id="baseSalary" type="number" placeholder="Enter Base Salary">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <button class="btn btn-success add-btn" type="submit">Submit</button>
+                </div>
+            </form>
+
+            <div class="col-12 mt-5">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Emp ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Job Role</th>
+                            <th>Department</th>
+                            <th>Sales</th>
+                            <th>Base Salary</th>
+                            <th>Incentive Percentage(%)</th>
+                            <th>Bonus Amount</th>
+                            <th>Holiday Package Eligibility</th>
+                            <th>Package Name</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employee-list">
+                        <tr>
+                            <td>101</td>
+                            <td>Sasmita</td>
+                            <td>Rout</td>
+                            <td>sasmitarout.official@gmail.com</td>
+                            <td>Python Developer</td>
+                            <td>Development</td>
+                            <td>50000</td>
+                            <td>40000</td>
+                            <td>5</td>
+                            <td>0</td>
+                            <td>Yes</td>
+                            <td>Package 1</td>
+
+                            <td>
+                                <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/employees.js"></script>
+</body>
+</html>
